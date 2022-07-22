@@ -1,0 +1,53 @@
+/*add color and paddind to the navbar*/
+.background{
+  background-color: gray;
+  padding-top: 10px;
+  margin: 0px;
+}
+
+
+
+/*change the title font size, color, and put it a little bit more to the right */
+#titlefont{
+font-size: 35px;
+padding-left: 10px;
+text-shadow: 1px 1px 1px #222;
+color: black;
+}
+
+
+/*eliminate the hover effect in the "Food, LCC" title*/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/*eliminate the hover effect in the "Food, LCC" title*/
+.navbar-collapse li:hover, .navbar-collapse li:focus{
+  background-color: white;
+}
+
+
+/*Eliminates margin and ads color to the items in the colla*/
+ #MenuMarginColor {
+  margin: auto;
+  color: black;
+ }
+
+/*Adds black border to navbar button*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+/*Eliminates rounded corners from navbar*/
+.navbar-default{
+  border: none;
+  border-radius: 0;
+}
+
+/*Adds height, color and padding to the main body*/
+.containerBody{
+  height: 1000px;
+  padding-top: 5px;
+  margin: 20px 25px 5px;
+  background-color: grey;
+}
